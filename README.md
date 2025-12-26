@@ -1,16 +1,11 @@
-# Sentiment Analysis (Machine Learning) – Python + scikit-learn
+# Sentiment Analysis (NLP) – Python (VADER)
 
-This project is a simple **sentiment analysis** classifier that predicts whether a text review is **positive** or **negative**.
+This project performs **sentiment analysis** on text reviews, classifying them as
+positive, negative, or neutral using the **VADER sentiment analysis model**.
 
-It uses a basic Machine Learning pipeline:
-- **TF-IDF** text vectorization
-- **Logistic Regression** classifier
+VADER is a lexicon and rule-based NLP tool widely used for analysing short texts
+such as reviews and social media posts.
 
 ## Tech Stack
 - Python
-- scikit-learn
-
-## How to Run
-1) Create a virtual environment (optional but recommended)
-```bash
-python -m venv .venv
+- vaderSentiment
