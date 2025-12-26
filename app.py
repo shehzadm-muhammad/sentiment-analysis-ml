@@ -20,4 +20,3 @@ print("\n✅ Sentiment Predictions (VADER):")
 for s in samples:
     score = analyzer.polarity_scores(s)["compound"]
     print(f"- {s}  -->  {label(score)} (compound={score:.3f})")
-
